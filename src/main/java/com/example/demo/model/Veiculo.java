@@ -39,6 +39,6 @@ public class Veiculo {
     private LocalDate dataAquisicaoCliente;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "clientes")
+    @JoinColumn(name = "cliente_id")
     private Cliente cliente;
 }
