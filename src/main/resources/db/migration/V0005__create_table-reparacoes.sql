@@ -1,5 +1,5 @@
 CREATE TABLE reparacoes (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id SERIAL PRIMARY KEY,
     veiculo_id INT NOT NULL,
     cliente_id INT NOT NULL,
     data_atendimento DATE NOT NULL,

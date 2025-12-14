@@ -1,5 +1,5 @@
 CREATE TABLE pecas_utilizadas (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id SERIAL PRIMARY KEY,
     reparacoes_id INT NOT NULL,
     estoque_pecas_id INT NOT NULL,
     quantidade_utilizada INT NOT NULL DEFAULT 1,
